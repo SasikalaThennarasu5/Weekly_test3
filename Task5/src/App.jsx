@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './Components/Home';
 import Properties from './Components/Properties';
 import PropertyDetails from './Components/PropertyDetails';
-import Navbar from './components/Navbar';
+import Navbar from './Components/Navbar';
 import { AuthProvider } from './context/AuthContext';
 
 const App = () => (
