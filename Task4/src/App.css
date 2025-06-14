@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  gap: 20px;
+  background: #eee;
+  padding: 10px;
+}
+.modal {
+  position: fixed;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  background: white;
+  border: 1px solid black;
+  padding: 20px;
+  z-index: 1000;
+}
